@@ -1,30 +1,28 @@
 
-mkdir -p ~/Dev/projects/XXXXXXXXXXX
+mkdir -p ~/Devs/projects/XXXXXXXXXXX
 cd ~/Dev/projects/XXXXXXXXXXX
-git clone https//github/reposatory.git
-git status
+git clone https//github/XXXXXXXXXXX.git
+git remote -v
 rm -rf .git
 git status
 
-//////Steps
-1- Go To GitHub and Create New Reposatory with name XXXXXXXXXXX
+1- Create New Reposatory with name XXXXXXXXXXX from GitHub-website
 2- open XXXXXXXXXXX with vscode
-3- open vscode-terminal
-// default-vscode-terminal is '~' which not working with github. 
-4- select new terminal with bash format '$' to be working.
-
-// type on terminal the followin line by line:-
+3- open New Bash-terminal from vscode-terminal
 
 git init
 git add --all
-git commit -m "My Project"
+git commit -m "first"
 git branch -M main
 git remote add origin https://github.com/engaks03/XXXXXXXXXXX.git
 git push -u origin main
 
-// refresh github-website-page and woohoo! -->  all done.
+// all done.
 
+// to Update your repo.
 
-
+git add --all
+git commit -m "second"
+git push
 
 
